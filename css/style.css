@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.body {
+  background-color: #24353f;
+}
+
+.container {
+  width: 60%;
+  background-color: #24353f;
+  box-shadow: 10px 10px 30px 20px rgba(0, 0, 0, 0.2),
+    -10px -10px 30px 20px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  color: #17a2b8;
+}
+
+.inputs .form-control {
+  background-color: transparent;
+  color: #95b6b6;
+}
+
+.inputs .form-control::placeholder {
+  color: #95b6b6;
+}
+.handle {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 12px;
+}
+
+.password-error-messages {
+  list-style-type: circle;
+  text-align: left;
+  color: rgb(220, 53, 69);
+  font-size: 15px;
+}
+
+.valid-feedback {
+  color: greenyellow !important;
+}
+
+.btn:hover {
+  color: white !important;
+}
+
+.hint p {
+  color: white;
+}
+
+.messageAreaWhenSigned {
+  color: greenyellow;
+  font-size: 14px;
+}
+
+/* ----------------Handling Home page------------------*/
+
+.bg-light {
+  background-color: #24353f !important;
+}
+
+.navbar {
+  box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logout {
+  color: #95b6b6;
+}
+
+.navbar-brand , .navbar-brand:hover {
+  color: white;
+}
+
+.welcome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #17a2b8;
+}
