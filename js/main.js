@@ -134,7 +134,7 @@ function addUser() {
       localStorage.setItem("users", JSON.stringify(users));
       messageAreaWhenSigned.innerHTML = `<p class="messageAreaWhenSigned">You have been Signed, and will be directed to Login page</p>`;
       setInterval(() => {
-        window.location.href = "/signIn.html";
+        window.location.href = "./signIn.html";
       }, 2500);
     }
   }

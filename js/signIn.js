@@ -20,7 +20,7 @@ function checkExistance(email) {
       messageAreaWhenSigned.innerHTML = `<p class="messageAreaWhenSigned "> Correct </p>`;
       sessionStorage.setItem("name", user.name);
       setInterval(() => {
-        window.location.href = "/home.html";
+        window.location.href = "./home.html";
       }, 1000);
     } else {
       messageAreaWhenSigned.innerHTML = `<p class="messageAreaWhenSigned text-danger">Incorrect Email or Password</p>`;

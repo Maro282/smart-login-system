@@ -6,10 +6,10 @@ if (sessionStorage.getItem("name") !== null) {
     "name"
   )} </h1>`;
 } else {
-  window.location.href = "/signIn.html";
+  window.location.href = "./signIn.html";
 }
 
 logoutBtn.addEventListener("click", function () {
   sessionStorage.clear();
-  window.location.href = "/signIn.html";
+  window.location.href = "./signIn.html";
 });
