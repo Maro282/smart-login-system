@@ -71,7 +71,8 @@
   color: #95b6b6;
 }
 
-.navbar-brand , .navbar-brand:hover {
+.navbar-brand,
+.navbar-brand:hover {
   color: white;
 }
 
@@ -81,4 +82,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #17a2b8;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
 }
